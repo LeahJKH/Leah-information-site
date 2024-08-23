@@ -7,7 +7,7 @@
 }
 body {
   background: rgb(132,0,179);
-background: linear-gradient(180deg, rgba(132,0,179,1) 0%, rgba(60,60,60,1) 37%, rgba(21,21,21,1) 100%);
+background: linear-gradient(180deg, rgb(68, 2, 93) 0%, rgba(60,60,60,1) 37%, rgba(21,21,21,1) 100%);
   min-height: 100vh;
 }
 a {
@@ -16,7 +16,7 @@ a {
 header, footer {
   text-align: center;
   width: 100%;
-  background-color: rgb(24, 1, 30);
+  background-color: rgb(49, 42, 50);
   height: 20vh;
   padding-top: 20px;
 }
@@ -51,4 +51,34 @@ header, footer {
   text-align: center;
   text-shadow: 0px 0px 3px black;
   width: 30%;
+}
+
+#card-pos {
+  position: relative;
+  height: 400px;
+  padding: 50px;
+}
+
+
+#c-1 {
+  position: absolute;
+  left: 20%;
+  rotate: -10deg;
+}
+#c-2 {
+  position: absolute;
+  left: 35%;
+}
+#c-3 {
+  position: absolute;
+  left: 52%;
+  rotate: 24deg;
+}
+.card-pos-style {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(132,0,179,1);
+  border-radius: 20px;
+  padding: 10px 20px;
+  overflow: hidden;
 }

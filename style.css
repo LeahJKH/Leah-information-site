@@ -52,6 +52,11 @@ header, footer {
   text-shadow: 0px 0px 3px black;
   width: 30%;
 }
+#main-cont-info {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
 
 #card-pos {
   position: relative;
@@ -64,15 +69,19 @@ header, footer {
   position: absolute;
   left: 20%;
   rotate: -10deg;
+  background-image: url(./bilder/cSkarpt.png);
+ 
 }
 #c-2 {
   position: absolute;
   left: 35%;
+  background-image: url(./bilder/mikuFull.jpg);
 }
 #c-3 {
   position: absolute;
   left: 52%;
   rotate: 24deg;
+  background-image: url(./bilder/Nintendo.webp);
 }
 .card-pos-style {
   width: 300px;
@@ -81,4 +90,14 @@ header, footer {
   border-radius: 20px;
   padding: 10px 20px;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
 }
